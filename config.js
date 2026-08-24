@@ -18,8 +18,8 @@ const SITE = {
   brandLine2:      "Meteorological Society",// small header logo, line 2
   logoEmoji:       "",
   founded:         "2026",
-  email:           "committee@oumetsoc.ox.ac.uk",
-  instagram:       "@oumetsoc",
+  email:           "Insert When We Have One",
+  instagram:       "Insert When We Have One",
   // ↓ Paste your Microsoft Form share link between the quotes (Form → Collect responses → Copy link).
   signupUrl:       "PASTE_YOUR_MICROSOFT_FORM_LINK_HERE",
   addressShort:    "--",
@@ -46,19 +46,19 @@ const SITE = {
     secondaryCta: { label: "See this term's events", href: "termcard.html" },
 
     featuresEyebrow: "What we do",
-    featuresHeading: "Weather, from the ground up",
-    featuresIntro:   "Each term we run a programme of talks, hands-on sessions and expeditions — all open to members across every college and subject.",
+    featuresHeading: "Oxford Meteorogical Society aims to share the passion for the weather across the University, across all levels of prior knowledge",
+    featuresIntro:   "Forecasting sessions, guest speakers, lectures, social events, trips, and more",
     features: [
-      { icon: "🎙️", title: "Guest Lectures",    text: "Weekly talks from leading forecasters, climate scientists and Oxford researchers on everything from monsoons to Martian weather." },
-      { icon: "🎈", title: "Field & Practical", text: "Launch radiosondes, tour the Radcliffe Meteorological Station, and learn to read synoptic charts and satellite imagery." },
-      { icon: "🌍", title: "Socials & Trips",   text: "Storm-chasing weekends, observatory visits and termly dinners — because the best forecasts are made among friends." },
+      { icon: "🎙️", title: "Guest Lectures",    text: "Talks from leading forecasters and scientists on a wide variety of topics." },
+      { icon: "🎈", title: "Field & Practical", text: "Oxford hosts the oldest meteorogical observatory in the UK at the Radcliffe Observatory" },
+      { icon: "🌍", title: "Socials & Trips",   text: "Social events, cross-society and cross-university collaborations" },
     ],
 
     stats: [
-      { num: "240+", label: "Members" },
-      { num: "8",    label: "Events / term" },
+      { num: "TBD", label: "Members" },
+      { num: "Many",    label: "Events / term" },
       { num: "1772", label: "Oldest UK weather record*" },
-      { num: "£5",   label: "Annual membership" },
+      { num: "£TBD",   label: "Annual membership" },
     ],
     statsNote: "*The Radcliffe Observatory holds one of the longest continuous weather records in Britain.",
 
@@ -75,14 +75,14 @@ const SITE = {
     cardTitle:  "Weekly Programme",
     cardSubtitle: "Weeks 1–8 · Michaelmas",
     events: [
-      { week: "Week 1", date: "Oct 16", title: "Welcome Drinks & Freshers' Forecast", speaker: "", desc: "Meet the committee, sign up for the year, and try your hand at a live forecasting game. Refreshments provided.", tag: "Social", location: "Beckit Room, 7pm" },
-      { week: "Week 2", date: "Oct 23", title: "How the Met Office Makes a Forecast", speaker: "Dr Priya Nair · Senior Operational Meteorologist", desc: "From observations to supercomputers — the journey of a modern weather forecast.", tag: "Talk", location: "Lecture Theatre A" },
-      { week: "Week 3", date: "Oct 30", title: "Reading the Sky: A Cloud Identification Workshop", speaker: "", desc: "Hands-on session on cloud types, what they tell you, and photographing them well.", tag: "Practical", location: "University Parks" },
-      { week: "Week 4", date: "Nov 6",  title: "Extreme Weather in a Warming World", speaker: "Prof. Alan Whitcombe · Dept. of Physics (AOPP)", desc: "What the science really says about heatwaves, floods and the storms to come.", tag: "Talk", location: "Martin Wood Theatre" },
-      { week: "Week 5", date: "Nov 13", title: "Radiosonde Launch & Station Tour", speaker: "", desc: "Help launch a weather balloon and tour the historic Radcliffe Meteorological Station. Places limited — book early.", tag: "Field Trip", location: "Green Templeton, 2pm" },
-      { week: "Week 6", date: "Nov 20", title: "Weather of Other Worlds", speaker: "Dr Kofi Mensah · Planetary Physics", desc: "Dust storms on Mars, diamond rain on Neptune, and supersonic winds beyond.", tag: "Talk", location: "Lecture Theatre A" },
-      { week: "Week 7", date: "Nov 27", title: "Forecasting Careers Panel", speaker: "", desc: "Alumni working in the Met Office, reinsurance, aviation and research share how they got there.", tag: "Careers", location: "Beckit Room" },
-      { week: "Week 8", date: "Dec 4",  title: "Annual Meteorological Dinner", speaker: "", desc: "Round off the term in style with our black-tie dinner and guest speaker. Tickets via the committee.", tag: "Social", location: "College Hall, 7:30pm" },
+      { week: "Week 1", date: "TBD", title: "Welcome Drinks & Freshers' Forecast", speaker: "", desc: "Meet the committee, sign up for the year, and try your hand at a live forecasting game. Refreshments provided.", tag: "Social", location: "Beckit Room, 7pm" },
+      { week: "Week 2", date: "TBD", title: "How the Met Office Makes a Forecast", speaker: "Dr Priya Nair · Senior Operational Meteorologist", desc: "From observations to supercomputers — the journey of a modern weather forecast.", tag: "Talk", location: "Lecture Theatre A" },
+      { week: "Week 3", date: "TBD", title: "Reading the Sky: A Cloud Identification Workshop", speaker: "", desc: "Hands-on session on cloud types, what they tell you, and photographing them well.", tag: "Practical", location: "University Parks" },
+      { week: "Week 4", date: "TBD",  title: "Extreme Weather in a Warming World", speaker: "Prof. Alan Whitcombe · Dept. of Physics (AOPP)", desc: "What the science really says about heatwaves, floods and the storms to come.", tag: "Talk", location: "Martin Wood Theatre" },
+      { week: "Week 5", date: "TBD", title: "Radiosonde Launch & Station Tour", speaker: "", desc: "Help launch a weather balloon and tour the historic Radcliffe Meteorological Station. Places limited — book early.", tag: "Field Trip", location: "Green Templeton, 2pm" },
+      { week: "Week 6", date: "TBD", title: "Weather of Other Worlds", speaker: "Dr Kofi Mensah · Planetary Physics", desc: "Dust storms on Mars, diamond rain on Neptune, and supersonic winds beyond.", tag: "Talk", location: "Lecture Theatre A" },
+      { week: "Week 7", date: "TBD", title: "Forecasting Careers Panel", speaker: "", desc: "Alumni working in the Met Office, reinsurance, aviation and research share how they got there.", tag: "Careers", location: "Beckit Room" },
+      { week: "Week 8", date: "TBD",  title: "Annual Meteorological Dinner", speaker: "", desc: "Round off the term in style with our black-tie dinner and guest speaker. Tickets via the committee.", tag: "Social", location: "College Hall, 7:30pm" },
     ],
     ctaHeading: "Never miss an event",
     ctaText:    "Members get the term card, weekly reminders and priority booking for trips. Sign up in two minutes.",
@@ -115,14 +115,14 @@ const SITE = {
     committeeHeading: "Meet the 2026–27 team",
     committeeIntro:   "Your friendly, slightly weather-obsessed committee. Come and say hello at any event.",
     committee: [
-      { emoji: "🌩️", name: "Eleanor Frost",  role: "President" },
-      { emoji: "🌬️", name: "Rahul Desai",    role: "Vice-President" },
-      { emoji: "📊", name: "Marta Kowalski", role: "Treasurer" },
-      { emoji: "✉️", name: "Tom Ashby",      role: "Secretary" },
-      { emoji: "🎈", name: "Aisha Bello",    role: "Events Officer" },
-      { emoji: "📷", name: "Liu Wei",        role: "Media Officer" },
-      { emoji: "🎓", name: "Sophie Grant",   role: "Careers Officer" },
-      { emoji: "🌍", name: "James O'Connor", role: "Outreach Officer" },
+      { emoji: "🌩️", name: "Alex Holmes",  role: "President" },
+      { emoji: "🌬️", name: "Amber Wells",    role: "Vice-President" },
+      { emoji: "📊", name: "TBD", role: "Treasurer" },
+      { emoji: "✉️", name: "TBD",      role: "Secretary" },
+      { emoji: "🎈", name: "TBD",    role: "Events Officer" },
+      { emoji: "📷", name: "TBD",        role: "Media Officer" },
+      { emoji: "🎓", name: "TBD",   role: "Careers Officer" },
+      { emoji: "🌍", name: "TBD", role: "Outreach Officer" },
     ],
 
     ctaHeading: "Come and join us",
@@ -148,13 +148,12 @@ const SITE = {
     ],
 
     priceHeading: "Annual membership",
-    price:        "£5",
+    price:        "£TBD",
     pricePeriod:  "for the full year",
     priceNote:    "One-off payment covering Michaelmas, Hilary and Trinity terms. Your first event is free.",
     pricePoints: [
       "Open to all Oxford students & staff",
       "First event free — no commitment",
-      "Cancel any time, no questions asked",
     ],
 
     // Sign-up uses your Microsoft Form (link set as "signupUrl" in the Brand section above).
@@ -186,7 +185,7 @@ const SITE = {
     info: [
       { icon: "✉️", label: "Email",          value: "USE_EMAIL" },     // USE_EMAIL = the address above
       { icon: "📸", label: "Instagram",      value: "USE_INSTAGRAM" }, // USE_INSTAGRAM = the handle above
-      { icon: "💬", label: "Members' group", value: "Join the WhatsApp / Discord after signing up" },
+      { icon: "💬", label: "Members' group", value: "Join the WhatsApp after signing up" },
       { icon: "📍", label: "Where to find us", value: "USE_ADDRESS_FULL" }, // USE_ADDRESS_FULL = the full address above
       { icon: "🕒", label: "Committee hours", value: "We answer messages during Oxford full term, Mon–Fri" },
     ],
