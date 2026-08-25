@@ -58,7 +58,7 @@ const SITE = {
       { num: "TBD", label: "Members" },
       { num: "Many",    label: "Events / term" },
       { num: "1772", label: "Oldest UK weather record*" },
-      { num: "£TBD",   label: "Annual membership" },
+      { num: "£5",   label: "Annual membership" },
     ],
     statsNote: "*The Radcliffe Observatory holds one of the longest continuous weather records in Britain.",
 
@@ -71,21 +71,20 @@ const SITE = {
   termcard: {
     eyebrow:  "Michaelmas Term 2026",
     heading:  "Term Card",
-    lede:     "Eight weeks of talks, practicals and socials. Unless noted, talks begin at 6:15pm and everyone is welcome — bring a friend.",
+    lede:     "",
     cardTitle:  "Weekly Programme",
-    cardSubtitle: "Weeks 1–8 · Michaelmas",
+    cardSubtitle: "Weeks 0–8 · Michaelmas",
     events: [
-      { week: "Week 1", date: "TBD", title: "Welcome Drinks & Freshers' Forecast", speaker: "", desc: "Meet the committee, sign up for the year, and try your hand at a live forecasting competition. Super fun, and there will be drinks/snacks!", tag: "Social", location: "Earth Sciences Department" },
-      { week: "Week 1", date: "October 17th", title: "Tornado and Storm Reseatch Organisation Conference", speaker: "", desc: "An incredible event, showcasing the latest research in tornado and storm science in the UK. Numerous talks by professional meteorologists and academics", tag: "Conference", location: "Oxford Brookes Conference Hall" },
-      { week: "Week 3", date: "TBD", title: "Reading the Sky: A Cloud Identification Workshop", speaker: "", desc: "Hands-on session on cloud types, what they tell you, and photographing them well.", tag: "Practical", location: "University Parks" },
-      { week: "Week 4", date: "TBD",  title: "", speaker: "Prof. Alan Whitcombe · Dept. of Physics (AOPP)", desc: "What the science really says about heatwaves, floods and the storms to come.", tag: "Talk", location: "Martin Wood Theatre" },
-      { week: "Week 5", date: "TBD", title: "", speaker: "", desc: "Help launch a weather balloon and tour the historic Radcliffe Meteorological Station. Places limited — book early.", tag: "Field Trip", location: "Green Templeton, 2pm" },
-      { week: "Week 6", date: "TBD", title: "", speaker: "Dr Kofi Mensah · Planetary Physics", desc: "Dust storms on Mars, diamond rain on Neptune, and supersonic winds beyond.", tag: "Talk", location: "Lecture Theatre A" },
-      { week: "Week 7", date: "TBD", title: "", speaker: "", desc: "Alumni working in the Met Office, reinsurance, aviation and research share how they got there.", tag: "Careers", location: "Beckit Room" },
-      { week: "Week 8", date: "Dec 1st",  title: "Meteorology Movie Night", speaker: "", desc: "Watch a meteorolgical movie (decided by a vote) as a fun way to round off the term", tag: "Social", location: "Earth Sciences Department" },
+      { week: "Week 0", date: "October 10th", title: "Welcome Drinks & Freshers' Forecast", speaker: "", desc: "Meet the committee, sign up for the year, and try your hand at a live forecasting competition. Super fun, and there will be drinks/snacks!", tag: "Social", location: "Earth Sciences Department" },
+      { week: "Week 1", date: "October 17th", title: "Tornado and Storm Research Organisation Conference", speaker: "", desc: "An incredible event, showcasing the latest research in tornado and storm science in the UK. Numerous talks by professional meteorologists and academics", tag: "Conference", location: "Oxford Brookes Conference Hall" },
+      { week: "Week 3", date: "October 27th", title: "Meteorological Quiz Night", speaker: "", desc: "Fun quiz night ", tag: "Quiz", location: "Earth Sciences Department" },
+      { week: "Week 5", date: "November 14th", title: "Forecast and Weather Discussion Evening", speaker: "", desc: "A fun, chill night, talking about recent weather events, sharing storm experiences, and more", tag: "Social", location: "Earth Sciences Department" },
+      { week: "Week 6", date: "TBD", title: "Potential Speaker Event", speaker: "" , desc: "TBD", tag: "Talk", location: "TBD" },
+      { week: "Week 7", date: "November 25th", title: "Meteorological Society Bar Crawl", speaker: "", desc: "Bar Crawl", tag: "Bar Crawl", location: "Oxford College Bars" },
+      { week: "Week 8", date: "December 1st",  title: "Meteorology Movie Night", speaker: "", desc: "Watch a meteorolgical movie (decided by a vote) as a fun way to round off the term", tag: "Social", location: "Earth Sciences Department" },
     ],
     ctaHeading: "Never miss an event",
-    ctaText:    "Members get the term card, weekly reminders and priority booking for trips. Sign up in two minutes.",
+    ctaText:    "",
     ctaButton:  { label: "Become a Member", href: "join.html" },
   },
 
@@ -97,8 +96,8 @@ const SITE = {
 
     sections: [
       { heading: "Our story", paragraphs: [
-        "The Oxford University Meteorological Society was founded in 2026 by a small group of students who kept ending up on the same rooftops during thunderstorms. What began as an informal cloud-appreciation group has grown into one of Oxford's most welcoming scientific societies.",
-        "Oxford has a remarkable meteorological heritage: the Radcliffe Observatory has recorded the city's weather almost continuously since 1772, giving Britain one of its longest unbroken climate records. We're proud to carry a little of that tradition forward — with rather more coffee and considerably better waterproofs.",
+        "The Meteorological Society was founded in 2026 by a small group of Earth Sciences students who love to learn, think, and talk about the weather. What began as an informal group of friends who would watch tornado videos  aims to grow into a society that loves everything weather.",
+        "Oxford has a remarkable meteorological heritage: the Radcliffe Observatory has recorded the city's weather almost continuously since 1772, giving Britain one of its longest unbroken climate records. We're proud to carry a little of that tradition forward — this time with social events!",
       ]},
       { heading: "What we stand for", paragraphs: [
         "We believe understanding the atmosphere should be open to everyone, not just physicists. Whether you want to forecast, photograph, or simply understand the sky above you, there's a place for you here. We're committed to being accessible, welcoming, and genuinely fun — and to taking climate seriously along the way.",
@@ -106,9 +105,9 @@ const SITE = {
     ],
 
     values: [
-      { icon: "🔭", title: "Curiosity first", text: "No prior knowledge needed. We start every topic from the ground up and love a good beginner's question." },
+      { icon: "🔭", title: "Curiosity first", text: "No prior knowledge needed. We start every topic from the ground up." },
       { icon: "🤝", title: "Open to all",     text: "Every college, every subject, every year. Undergraduates, postgraduates and staff are all welcome." },
-      { icon: "🌱", title: "Climate aware",   text: "We connect the weather outside the window to the bigger questions of a changing climate." },
+      { icon: "🌱", title: "Not Just Climate",   text: "We focus on the dynamic, changing nature of the weather, not just long term patterns or Climate Change." },
     ],
 
     committeeEyebrow: "The Committee",
