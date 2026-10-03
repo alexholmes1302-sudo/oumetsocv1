@@ -39,14 +39,14 @@ const SITE = {
 
   /* ---- HOME PAGE ----------------------------------------------------------- */
   home: {
-    eyebrow:    "Founded 2026 · University of Oxford",
+    eyebrow:    "Founded 2026 · Oxford",
     heroHeading:"",
     heroLede:   "",
     primaryCta:   { label: "Join the Society", href: "join.html" },
     secondaryCta: { label: "See this term's events", href: "termcard.html" },
 
     featuresEyebrow: "What we do",
-    featuresHeading: "Oxford Meteorogical Society aims to share the passion for the weather across the University, across all levels of prior knowledge",
+    featuresHeading: "Oxford Meteorogical Society aims to share the passion for the weather across the city, across all levels of prior knowledge",
     featuresIntro:   "Forecasting sessions, guest speakers, lectures, social events, trips, and more",
     features: [
       { icon: "🎙️", title: "Guest Lectures",    text: "Talks from leading forecasters and scientists on a wide variety of topics." },
