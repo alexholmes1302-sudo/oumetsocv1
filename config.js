@@ -13,8 +13,8 @@
 const SITE = {
 
   /* ---- Brand: shown in the header & footer on every page -------------------- */
-  name:            "Oxford University Meteorological Society",
-  brandLine1:      "Oxford University",     // small header logo, line 1
+  name:            "Oxford Meteorological Society",
+  brandLine1:      "Oxford",     // small header logo, line 1
   brandLine2:      "Meteorological Society",// small header logo, line 2
   logoEmoji:       "",
   founded:         "2026",
@@ -25,8 +25,8 @@ const SITE = {
   addressShort:    "--",
   addressFull:     "--",
   membershipPrice: "--",
-  footerBlurb:     "A student society of the University of Oxford for the study and appreciation of weather and climate.",
-  affiliation:     "Affiliated to the Oxford SU · Not affiliated with the Met Office",
+  footerBlurb:     "A student society based in Oxford for the study and appreciation of weather",
+  affiliation:     "",
 
   /* ---- Navigation: the menu links (order matters) -------------------------- */
   nav: [
@@ -62,8 +62,8 @@ const SITE = {
     ],
     statsNote: "*The Radcliffe Observatory holds one of the longest continuous weather records in Britain.",
 
-    ctaHeading: "New term, new skies",
-    ctaText:    "Our Michaelmas programme is live. Come along to the first talk — free for all Oxford students, and your first session is on us.",
+    ctaHeading: "",
+    ctaText:    "",
     ctaButton:  { label: "View the Term Card", href: "termcard.html" },
   },
 
